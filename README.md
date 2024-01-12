@@ -1,5 +1,11 @@
 # WGoWwSoRMU
+
 AKA: `WireGuardOnWindowsWithSwagOnRemoteMachineUtils`
+
+## My Problem
+
+I have a laptop I use for various task, where I have many different network interfaces and adapters, sometimes I use a VPN to connect back to a network where I run a reverse proxy but for a series of different reasons I have problems resolving a local domain to that network, I tried local dns resolution but it was just driving me insane with a series of boundaries while you are on corporate networks and other locks are around, in the end I decided that it was easier to just add the domains that i needed to the windows host file of my machine, but: some of those domains are also exposed on the internet, and i'm not always with the VPN connected, and I wanted them to work anyway if I have at least one path to them, in the end what I opted for was a script to push the list of domains to my host file when I connect to the vpn, as a programmer I had to do the classic "spend 6 days automating a 1 hour task" thing (actually,it was not that long to do this time), so here we are.
+I have no idea if this very specific setup may help someone else, but I had no reasons not to share it anyway.
 
 ## Overview
 
