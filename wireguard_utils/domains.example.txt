@@ -1,0 +1,10 @@
+dashboard.example.org 192.168.0.x
+homarr.example.org 192.168.0.x
+home.example.org 192.168.0.x
+jellyfin.example.org 192.168.0.x
+jellyseerr.example.org 192.168.0.x
+old.example.org 192.168.0.x
+pihole.example.org 192.168.0.x
+radarr.example.org 192.168.0.x
+sonarr.example.org 192.168.0.x
+transmission.example.org 192.168.0.x
