@@ -13,6 +13,10 @@ This repository contains a Bash script, `genHostEntryFromSwagConf.sh`, designed 
 
 Additionally, the repository includes a "wireguard_utils" folder containing two scripts, `PostUp.ps1` and `PostDown.ps1`, which are meant to be placed on the Windows machine to configure the WireGuard tunnel's PostUp and PostDown actions.
 
+## TODO-next
+
+We should get the ip from the various config files instead of specifying one from the script
+
 ## Prerequisites
 
 - A Linux machine with the `linuxserver.io/swag` container running.
